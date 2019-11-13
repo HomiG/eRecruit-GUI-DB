@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="720.0" style="-fx-background-color: #596174;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFX.Recruiter.RecruiterController">
+   <left>
+      <VBox prefHeight="610.0" prefWidth="114.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton onAction="#editEtairia" prefHeight="86.0" prefWidth="120.0" style="-fx-background-color: #303A52;" text="Edit Etairia" textFill="WHITE" />
+            <JFXButton onAction="#editAccount" prefHeight="86.0" prefWidth="120.0" style="-fx-background-color: #303A52;" text="Edit Account" textFill="WHITE" />
+            <JFXButton onAction="#insertJob" prefHeight="86.0" prefWidth="120.0" style="-fx-background-color: #303A52;" text="Insert Job" textFill="WHITE" />
+            <JFXButton onAction="#myJobs" prefHeight="86.0" prefWidth="120.0" style="-fx-background-color: #303A52;" text="My Jobs" textFill="WHITE" />
+            <JFXButton onAction="#showJobs" prefHeight="86.0" prefWidth="120.0" style="-fx-background-color: #303A52;" text="Show Jobs" textFill="WHITE" />
+            <JFXButton fx:id="logOutButton" onAction="#logOut" prefHeight="80.0" prefWidth="120.0" style="-fx-background-color: #303A52;" text="Log Out" textFill="WHITE">
+               <VBox.margin>
+                  <Insets top="190.0" />
+               </VBox.margin>
+            </JFXButton>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>

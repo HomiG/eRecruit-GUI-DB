@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFX.Candidate.JobApplicationController">
+   <children>
+      <TableView fx:id="table" prefHeight="458.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="job" prefWidth="154.0" text="job" />
+            <TableColumn fx:id="id" editable="false" prefWidth="67.0" text="id" />
+          <TableColumn fx:id="applied" prefWidth="86.0" text="applied" />
+            <TableColumn fx:id="status" prefWidth="292.0" text="status" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="button" layoutX="221.0" layoutY="527.0" onAction="#buttonAction" prefHeight="26.0" prefWidth="159.0" style="-fx-background-color: grey;" textFill="WHITE" />
+   </children>
+</AnchorPane>

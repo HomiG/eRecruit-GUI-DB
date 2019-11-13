@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="720.0" style="-fx-background-color: #596174;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFX.Admin.AdminController">
+   <left>
+      <VBox prefHeight="610.0" prefWidth="122.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton onAction="#newRecrAccount" prefHeight="100.0" prefWidth="123.0" style="-fx-background-color: #303A52;" text="New Recr Account" textFill="WHITE" />
+            <JFXButton onAction="#newCandAccount" prefHeight="100.0" prefWidth="128.0" style="-fx-background-color: #303A52;" text="New Cand Account" textFill="WHITE" />
+            <JFXButton onAction="#newAntikeimeno" prefHeight="100.0" prefWidth="122.0" style="-fx-background-color: #303A52;" text="New Antikeimeno" textFill="WHITE" />
+            <JFXButton onAction="#actionHistory" prefHeight="100.0" prefWidth="122.0" style="-fx-background-color: #303A52;" text="Action History" textFill="WHITE" />
+            <JFXButton fx:id="logOutButton" onAction="#logOut" prefHeight="71.0" prefWidth="122.0" style="-fx-background-color: #303A52;" text="Log Out" textFill="WHITE">
+               <VBox.margin>
+                  <Insets top="140.0" />
+               </VBox.margin>
+            </JFXButton>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>

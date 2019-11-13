@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFX.Recruiter.EditEtairiaController">
+   <top>
+      <Label text="View Edit Etairia" textAlignment="CENTER" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets top="10.0" />
+         </BorderPane.margin>
+      </Label>
+   </top>
+   <center>
+      <TableView fx:id="table" editable="true" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="name" editable="false" prefWidth="78.0" text="Name" />
+          <TableColumn fx:id="afm" editable="false" prefWidth="72.0" text="AFM" />
+            <TableColumn fx:id="doy" editable="false" prefWidth="75.0" text="DOY" />
+            <TableColumn fx:id="phone" onEditCommit="#onEditPhone" prefWidth="75.0" text="Phone" />
+            <TableColumn fx:id="street" onEditCommit="#onEditStreet" prefWidth="75.0" text="Street" />
+            <TableColumn fx:id="num" onEditCommit="#onEditNum" prefWidth="75.0" text="Num" />
+            <TableColumn fx:id="city" onEditCommit="#onEditCity" prefWidth="75.0" text="City" />
+            <TableColumn fx:id="country" onEditCommit="#onEditCountry" prefWidth="75.0" text="Country" />
+        </columns>
+         <BorderPane.margin>
+            <Insets top="15.0" />
+         </BorderPane.margin>
+      </TableView>
+   </center>
+   <bottom>
+      <AnchorPane prefHeight="66.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton layoutX="462.0" layoutY="20.0" style="-fx-background-color: #145bcc;" text="Update Changes" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

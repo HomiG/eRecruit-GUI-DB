@@ -1,0 +1,48 @@
+
+
+
+The GUI project has been implemented in JavaFX. 
+
+I have imported the library "com.jfoenix:jfoenix:9.0.9" from which I am  using buttons, text fields, date pickers.
+Views from this library work excactly the same way, they jsut look better.
+
+
+RECRUITER:
+
+->My jobs.
+
+Closed jobs check box STATE_CHECKED prints the jobs that their submision date has passed (current day).
+Closed jobs check box STATE_UNCHECKED prints all the jobs.
+
+-> Insert Job.
+
+When a recruiter inserts a new job, they can decide if he wants to add an Antikeimeno to this job.
+	If this antikeim already exists then just type the name of Antikeim into Antikeimeno field.
+	If they want to insert a new antikeim they  just type the into Antikeimeno, Antikeim Description,
+	belongs_to field and click add Antikeimeno, the new Antikeim will be Created And also added to this job.
+	
+-> Evaluate Interviews.
+
+When a recruiter see the list of interviews, they can edit the completed ones just by clicking into the 
+personality/education/experience columns and then pressing ENTER to  save the changes and update the database.
+If the interview has -1 into these columns it means that the job application has not been evaluated yet.
+To Evaluate: just click the desired columns to change the values and press ENTER to save the chagnes.
+Also complete the duaration  and comments field and CLICK ADD NEW INTERVIEW.
+
+WHEN ADDING A NEW INTERVIEW if the 0<personality/education/experiece<5 the value will change to the closer limit.
+
+
+ADMIN:
+
+-> Action History.
+
+When they want to filter the table of action history they can choose either user or table or Both
+but they need to specify the date limits.
+
+
+
+
+FILES PATH: db_proj_1054429_1054406/B MEROS/Project/src/JavaFX
+
+
+ALL TRIGERS AND THE STORED PORCEDURE MUST BE INSERTED INTO DATABASE!! OTHERWISE SOME FUNCTIONALITIES WILL NOT WORK.

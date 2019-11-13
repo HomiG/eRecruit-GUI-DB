@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="720.0" style="-fx-background-color: #596174;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFX.Candidate.CanditateControler">
+   <left>
+      <VBox prefHeight="610.0" prefWidth="114.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton onAction="#editAccount" prefHeight="140.0" prefWidth="114.0" style="-fx-background-color: #303A52;" text="Edit Account" textFill="WHITE" />
+            <JFXButton onAction="#applyForJob" prefHeight="140.0" prefWidth="114.0" style="-fx-background-color: #303A52;" text="Apply For Job" textFill="WHITE" />
+            <JFXButton fx:id="logOutButton" onAction="#logOut" prefHeight="85.0" prefWidth="114.0" style="-fx-background-color: #303A52;" text="Log Out" textFill="WHITE">
+               <VBox.margin>
+                  <Insets top="300.0" />
+               </VBox.margin>
+            </JFXButton>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>
