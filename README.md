@@ -10,3 +10,7 @@ LEARN
 Connection between (JavaFX) UI and (mySQL) Database
 Use of all of the basics of JavaFX. 
 Mutli window/tab application with, emphasizing in appearance as well.
+
+2) Gain Mysql Database knowledge, by creating a mySQL database using:
+-mySQL Stored Procedures
+-mySQL Triggers
