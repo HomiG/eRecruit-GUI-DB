@@ -3,7 +3,7 @@
 GOAL
 Create an application that aims to digitalize the reqruitment procedure. 
 Recruiters add Job positions, where Candidates can apply for them.
-Total score assigment on each application by reqruiters.
+Total score assigment on each application by reqruiters, under an elegant GUI.
 
 LEARN
 1) In depth understanding of JDBC and JavaFX
