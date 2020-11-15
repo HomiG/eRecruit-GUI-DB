@@ -7,10 +7,23 @@ Total score assigment on each application by reqruiters, under an elegant GUI.
 
 LEARN
 1) In depth understanding of JDBC and JavaFX
-Connection between (JavaFX) UI and (mySQL) Database
+Connection between Java and mySQL Database
 Use of all of the basics of JavaFX. 
 Mutli window/tab application with, emphasizing in appearance as well.
 
 2) Gain Mysql Database knowledge, by creating a mySQL database using:
 -mySQL Stored Procedures
 -mySQL Triggers
+
+
+
+
+GUI-SCREENSHOTS 
+
+![alt text](https://i.imgur.com/YxCwxnP.png)
+
+![alt_text](https://imgur.com/MlPnTnd)
+
+![alt text](https://i.imgur.com/QWTks4c.png)
+
+
