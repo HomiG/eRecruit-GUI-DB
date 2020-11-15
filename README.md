@@ -22,7 +22,7 @@ GUI-SCREENSHOTS
 
 ![alt text](https://i.imgur.com/YxCwxnP.png)
 
-![alt_text](https://imgur.com/MlPnTnd)
+![alt text](https://i.imgur.com/MlPnTnd.png)
 
 ![alt text](https://i.imgur.com/QWTks4c.png)
 
